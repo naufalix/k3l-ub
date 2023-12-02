@@ -13,7 +13,7 @@
     
     @include('partials.navbar')
     @yield('content')
-    @include('partials.head')
+    @include('partials.footer')
     
     <!-- Back to Top -->
     <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded-circle back-to-top"><i
