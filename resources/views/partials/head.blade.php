@@ -19,3 +19,6 @@
     <link rel="stylesheet" href="/assets/css/bootstrap.min.css">
     <!-- Template Stylesheet -->
     <link rel="stylesheet" href="/assets/css/style.css">
+    <style>
+        .text-justify{text-align: justify}
+    </style>

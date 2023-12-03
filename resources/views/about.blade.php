@@ -16,63 +16,16 @@
 <!-- About Start -->
 <div class="container-xxl py-5 bg-white rounded-1">
   <div class="container">
-    <div class="row g-5">
-      <div class="col-lg-6">
-        <div class="row gx-3 h-100">
-          <div class="col-6 align-self-start wow fadeInUp" data-wow-delay="0.1s">
-            <img class="img-fluid" src="/assets/img/about-1.jpg">
-          </div>
-          <div class="col-6 align-self-end wow fadeInDown" data-wow-delay="0.1s">
-            <img class="img-fluid" src="/assets/img/about-2.jpg">
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
-        <p class="fw-medium text-uppercase text-primary mb-2">About Us</p>
-        <h1 class="display-5 mb-4">We Are Leader In Industrial Market</h1>
-        <p class="mb-4">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et
-          eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet
-        </p>
-        <div class="d-flex align-items-center mb-4">
-          <div class="flex-shrink-0 bg-primary p-4">
-            <h1 class="display-2">25</h1>
-            <h5 class="text-white">Years of</h5>
-            <h5 class="text-white">Experience</h5>
-          </div>
-          <div class="ms-4">
-            <p><i class="fa fa-check text-primary me-2"></i>Power & Energy</p>
-            <p><i class="fa fa-check text-primary me-2"></i>Civil Engineering</p>
-            <p><i class="fa fa-check text-primary me-2"></i>Chemical Engineering</p>
-            <p><i class="fa fa-check text-primary me-2"></i>Mechanical Engineering</p>
-            <p class="mb-0"><i class="fa fa-check text-primary me-2"></i>Oil & Gas Engineering</p>
-          </div>
-        </div>
-        <div class="row pt-2">
-          <div class="col-sm-6">
-            <div class="d-flex align-items-center">
-              <div class="flex-shrink-0 btn-lg-square rounded-circle bg-primary">
-                <i class="fa fa-envelope-open text-white"></i>
-              </div>
-              <div class="ms-3">
-                <p class="mb-2">Email us</p>
-                <h5 class="mb-0">info@example.com</h5>
-              </div>
-            </div>
-          </div>
-          <div class="col-sm-6">
-            <div class="d-flex align-items-center">
-              <div class="flex-shrink-0 btn-lg-square rounded-circle bg-primary">
-                <i class="fa fa-phone-alt text-white"></i>
-              </div>
-              <div class="ms-3">
-                <p class="mb-2">Call us</p>
-                <h5 class="mb-0">+012 345 6789</h5>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
+    
+    <h2 class="display-5 mb-4">Apa itu K3L?</h2>
+    <p class="mb-4 text-justify">
+      Kesehatan, Keselamatan Kerja, dan Lingkungan adalah (K3L) adalah upaya untuk menciptakan keadaan aman, kondisi yang terlindungi secara fisik dan spiritual, keadaan terbebas atau terhindar dari berbagai keadaan yang tidak diinginkan, keadaan sehat, baik secara fisik, mental, spiritual maupun sosial yang memungkinkan setiap orang untuk hidup produktif secara sosial dan ekonomi di dalam kesatuan ruang dengan semua makhluk hidup untuk keberlanjutan dan kesejahteraan manusia dan makhluk hidup lainnya.</p>
+    <br>
+      <h2 class="display-5 my-4">Tujuan Keselamatan Kerja</h2>
+    <p class="mb-4 text-justify">
+      Berdasarkan <b class="text-dark">UU No. 1 Tahun 1970</b> tentang keselamatan kerja , bahwa tujuan Kesehatan dan Keselamatan Kerja yang berkaitan dengan mesin, peralatan, landasan tempat kerja dan lingkungan tempat kerja adalah mencegah terjadinya kecelakaan dan sakit akibat kerja, memberikan perlindungan pada sumber-sumber produksi sehingga dapat meningkatkan efiensi dan produktivitas. Hal ini tentu sangat penting mengingat apabila Kesehatan pegawai buruk mengakibatkan turunnya capaian/output serta demotivasi kerja.
+    </p>
+
   </div>
 </div>
 <!-- About End -->

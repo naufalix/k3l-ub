@@ -23,7 +23,7 @@
 <style>
   .navbar{
     background-image: linear-gradient(to right,transparent,transparent,#1F6B3D);
-    border-bottom: 1px solid #EC8B22;
+    border-bottom: 1px solid #1F6B3D;
   }
   @media (max-width: 600px) {
     .navbar-brand img {max-width: 230px;}
@@ -54,7 +54,7 @@
       <a href="/standar-operasional-prosedur" class="nav-item nav-link {{ Request::is('standar*') ? 'active' : '' }}">SOP</a>
       <a href="/infografis" class="nav-item nav-link {{ Request::is('infografis') ? 'active' : '' }}">Infografis</a>
       <a href="/kontak" class="nav-item nav-link {{ Request::is('kontak') ? 'active' : '' }}">Kontak</a>
-      <a href="#" class="nav-item nav-link">Aplikasi</a>
+      <a href="/files/Simk3ub.apk" class="nav-item nav-link">Aplikasi</a>
     </div>
   </div>
 </nav>
