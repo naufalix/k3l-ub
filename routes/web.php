@@ -15,3 +15,10 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', [HomeController::class, 'index']);
+Route::get('/infografis', [HomeController::class, 'infographic']);
+Route::get('/kontak', [HomeController::class, 'contact']);
+Route::get('/peraturan', [HomeController::class, 'regulation']);
+Route::get('/standar-operasional-prosedur', [HomeController::class, 'sop']);
+Route::get('/tentang', [HomeController::class, 'about']);
+
+Route::get('/sample', [HomeController::class, 'sample']);

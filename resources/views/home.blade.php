@@ -28,7 +28,7 @@
         <h1 class="display-5 mb-4">Berita Terkini</h1>
       </div>
       <div class="row">
-        <div class="col-4">
+        <div class="col-12 col-md-4 mb-3">
           <div class="card shadow">
             <img src="/assets/img/news/default.jpg" class="card-img-top" alt="...">
             <div class="card-body">
@@ -38,7 +38,7 @@
             </div>
           </div>
         </div>
-        <div class="col-4">
+        <div class="col-12 col-md-4 mb-3">
           <div class="card shadow">
             <img src="/assets/img/news/default.jpg" class="card-img-top" alt="...">
             <div class="card-body">
@@ -48,7 +48,7 @@
             </div>
           </div>
         </div>
-        <div class="col-4">
+        <div class="col-12 col-md-4 mb-3">
           <div class="card shadow">
             <img src="/assets/img/news/default.jpg" class="card-img-top" alt="...">
             <div class="card-body">

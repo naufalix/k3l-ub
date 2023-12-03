@@ -19,34 +19,42 @@
   </div>
 </div>
 <!-- Topbar End -->
+
+<style>
+  .navbar{
+    background-image: linear-gradient(to right,transparent,transparent,#1F6B3D);
+    border-bottom: 1px solid #EC8B22;
+  }
+  @media (max-width: 600px) {
+    .navbar-brand img {max-width: 230px;}
+  }
+  @media (min-width: 600px) {
+    .navbar-brand img {max-width: 350px;}
+  }
+</style>
+
 <!-- Navbar Start -->
-<nav class="navbar navbar-expand-lg bg-dark navbar-light sticky-top py-2 px-5">
+<nav class="navbar navbar-expand-lg bg-dark navbar-dark sticky-top py-2 px-md-5">
   <a href="../" class="navbar-brand bg-none">
-    <img src="/assets/img/logo-ub.png" class="fa-1x m-4">
+    <img src="/assets/img/logo-k3lub.png" class="fa-1x ms-3">
   </a>
-  <button type="button" class="navbar-toggler me-0" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+  <button type="button" class="navbar-toggler me-3" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
   <span class="navbar-toggler-icon"></span>
   </button>
   <div class="collapse navbar-collapse" id="navbarCollapse">
     <div class="navbar-nav ms-auto p-4 p-lg-0">
-      <a href="index.html" class="nav-item nav-link active">Home</a>
-      <a href="service.html" class="nav-item nav-link">Infografis</a>
+      <a href="../" class="nav-item nav-link {{ Request::is('') ? 'active' : '' }}">Home</a>
+      <a href="/tentang" class="nav-item nav-link {{ Request::is('tentang') ? 'active' : '' }}">Tentang</a>
       <div class="nav-item dropdown">
-        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Peraturan</a>
+        <a href="#" class="nav-link dropdown-toggle {{ Request::is('peraturan*') ? 'active' : '' }}" data-bs-toggle="dropdown">Peraturan</a>
         <div class="dropdown-menu bg-light m-0">
-          <a href="#" class="dropdown-item">SOP (excel)</a>
-          <a href="#" class="dropdown-item">Peraturan Rektor tentang K3L</a>
+          <a href="/peraturan" class="dropdown-item">Peraturan Rektor tentang K3L</a>
         </div>
       </div>
-      <div class="nav-item dropdown">
-        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pengaduan</a>
-        <div class="dropdown-menu bg-light m-0">
-          <a href="#" class="dropdown-item">Pesan</a>
-          <a href="#" class="dropdown-item">Saran</a>
-        </div>
-      </div>
-      <a href="#" class="nav-item nav-link">Tentang</a>
-      <a href="#" class="nav-item nav-link">Kontak</a>
+      <a href="/standar-operasional-prosedur" class="nav-item nav-link {{ Request::is('standar*') ? 'active' : '' }}">SOP</a>
+      <a href="/infografis" class="nav-item nav-link {{ Request::is('infografis') ? 'active' : '' }}">Infografis</a>
+      <a href="/kontak" class="nav-item nav-link {{ Request::is('kontak') ? 'active' : '' }}">Kontak</a>
+      <a href="#" class="nav-item nav-link">Aplikasi</a>
     </div>
   </div>
 </nav>

@@ -21,7 +21,39 @@ class HomeController extends Controller
             // "galleries" => Gallery::all(),
             // "news" => News::orderBy('created_at', 'desc')->get(),
             // "staffs" => Staff::all(),
-            "title" => "Divisi K3 UB | Home",
+            "title" => "Divisi K3L Universitas Brawijaya",
+        ]);
+    }
+
+    public function about(){
+        return view('about',[
+            "title" => "Tentang Kami",
+        ]);
+    }
+    public function contact(){
+        return view('contact',[
+            "title" => "Kontak",
+        ]);
+    }
+    public function infographic(){
+        return view('infographic',[
+            "title" => "Infografis",
+        ]);
+    }
+    public function regulation(){
+        return view('regulation',[
+            "title" => "Peraturan Rektor",
+        ]);
+    }
+    public function sop(){
+        return view('sop',[
+            "title" => "Standar Operasional Prosedur",
+        ]);
+    }
+
+    public function sample(){
+        return view('sample',[
+            "title" => "Sample Page",
         ]);
     }
     
