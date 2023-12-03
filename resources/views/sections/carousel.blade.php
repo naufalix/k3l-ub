@@ -8,7 +8,7 @@
           <div class="container">
             <div class="row justify-content-center">
               <div class="col-lg-10 text-start">
-                <p class="fs-5 fw-medium text-primary text-uppercase animated slideInRight">
+                <p class="fs-5 fw-medium text-success text-uppercase animated slideInRight">
                   Divisi K3L
                 </p>
                 <h1 class="display-1 text-white mb-5 animated slideInRight">
@@ -26,7 +26,7 @@
           <div class="container">
             <div class="row justify-content-center">
               <div class="col-lg-10 text-start">
-                <p class="fs-5 fw-medium text-primary text-uppercase animated slideInRight">
+                <p class="fs-5 fw-medium text-success text-uppercase animated slideInRight">
                   Divisi K3L
                 </p>
                 <h1 class="display-1 text-white mb-5 animated slideInRight">

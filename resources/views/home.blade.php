@@ -8,7 +8,7 @@
   <div class="container-xxl py-5">
     <div class="container">
       <div class="text-center mx-auto pb-4 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
-        <p class="fw-medium text-uppercase text-primary mb-2">Prosedur Keamanan</p>
+        <p class="fw-medium text-uppercase text-success mb-2">Prosedur Keamanan</p>
         <h1 class="display-5 mb-4">Gedung Samantha Krida</h1>
       </div>
       <div class="row content">
@@ -34,7 +34,7 @@
             <div class="card-body">
               <h5 class="card-title">Judul Berita</h5>
               <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit....</p>
-              <a href="#" class="btn btn-primary">Baca selengkapnya</a>
+              <a href="#" class="btn btn-success">Baca selengkapnya</a>
             </div>
           </div>
         </div>
@@ -44,7 +44,7 @@
             <div class="card-body">
               <h5 class="card-title">Judul Berita</h5>
               <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit....</p>
-              <a href="#" class="btn btn-primary">Baca selengkapnya</a>
+              <a href="#" class="btn btn-success">Baca selengkapnya</a>
             </div>
           </div>
         </div>
@@ -54,7 +54,7 @@
             <div class="card-body">
               <h5 class="card-title">Judul Berita</h5>
               <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit....</p>
-              <a href="#" class="btn btn-primary">Baca selengkapnya</a>
+              <a href="#" class="btn btn-success">Baca selengkapnya</a>
             </div>
           </div>
         </div>

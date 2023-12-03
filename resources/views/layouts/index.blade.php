@@ -16,7 +16,7 @@
     @include('partials.footer')
     
     <!-- Back to Top -->
-    <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded-circle back-to-top"><i
+    <a href="#" class="btn btn-lg btn-success btn-lg-square rounded-circle back-to-top"><i
       class="bi bi-arrow-up"></i></a>
 
       @include('partials.script')
