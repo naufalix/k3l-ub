@@ -12,7 +12,7 @@
                   Divisi K3L
                 </p>
                 <h1 class="display-1 text-white mb-5 animated slideInRight">
-                  Keselamatan Kesehatan Kerja dan Lingkungan (K3L)
+                  Kesehatan, Keselamatan Kerja dan Lingkungan (K3L)
                 </h1>
                 <a href="" class="btn btn-primary py-3 px-5 animated slideInRight d-none">Explore More</a>
               </div>
@@ -30,7 +30,7 @@
                   Divisi K3L
                 </p>
                 <h1 class="display-1 text-white mb-5 animated slideInRight">
-                  Keselamatan Kesehatan Kerja dan Lingkungan (K3L)
+                  Kesehatan, Keselamatan Kerja dan Lingkungan (K3L)
                 </h1>
                 <a href="" class="btn btn-primary py-3 px-5 animated slideInRight d-none">Explore More</a>
               </div>
