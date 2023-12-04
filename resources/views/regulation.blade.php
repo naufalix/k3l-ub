@@ -11,6 +11,25 @@
 </div>
 <!-- Page Header End -->
 
-@include('sections.coming-soon')
+<style>
+  body {background-color: #EEEEEE}
+</style>
+
+<!-- Peraturan Start -->
+<div class="container-xxl py-5 bg-white rounded-1">
+  <div class="container">
+    
+    <h2 class="display-5 my-4">Peraturan</h2>
+    <ul>
+      <li>
+        <a href="/assets/regulation/Peraturan-Rektor-2023-61.pdf" target="_blank">
+          Peraturan Rektor No. 61 Tahun 2023 yentang perubahan atas peraturan rektor No. 12 Tahun 2023 tentang organisasi dan tata kerja unsur yang berada di bawah rektor
+        </a>
+      </li>
+    </ul>
+
+  </div>
+</div>
+<!-- Peraturan End -->
 
 @endsection

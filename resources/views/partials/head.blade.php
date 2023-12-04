@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css">
     <!-- Libraries Stylesheet -->
     <link rel="stylesheet" href="/assets/lib/animate/animate.min.css">
+    <link rel="stylesheet" href="/assets/lib/mdi/css/materialdesignicons.min.css">
     <link rel="stylesheet" href="/assets/lib/owlcarousel/assets/owl.carousel.min.css">
     <!-- Customized Bootstrap Stylesheet -->
     <link rel="stylesheet" href="/assets/css/bootstrap.min.css">

@@ -20,44 +20,42 @@
   </div>
   <!-- Samantha Krida -->
 
+  <style>
+    .news-image{
+      aspect-ratio: 16/9;
+      object-fit: cover
+    }
+  </style>
+
   <!-- Berita terkini -->
-  <div class="container-xxl py-5">
+  <div id="news" class="container-xxl py-5">
     <div class="container">
       <div class="text-center mx-auto pb-4 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
         <p class="fw-medium text-uppercase text-primary mb-2 d-none">BLOG</p>
         <h1 class="display-5 mb-4">Berita Terkini</h1>
       </div>
-      <div class="row">
+      <div class="row justify-content-center">
         <div class="col-12 col-md-4 mb-3">
           <div class="card shadow">
-            <img src="/assets/img/news/default.jpg" class="card-img-top" alt="...">
+            <img src="/assets/img/news/news-1.jpg" class="card-img-top news-image" alt="...">
             <div class="card-body">
-              <h5 class="card-title">Judul Berita</h5>
-              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit....</p>
+              <h5 class="card-title">Tim Divisi K3L melakukan tinjauan lapang</h5>
+              <p class="card-text">Kawasan Hutan dengan Tujuan Khusus (KHDTK) yang menjadi Hutan Pendidikan dan Penelitian Universitas Brawijaya (UB) mengalami bencana kebakaran yang melibatkan wilayah....</p>
               <a href="#" class="btn btn-success">Baca selengkapnya</a>
             </div>
           </div>
         </div>
         <div class="col-12 col-md-4 mb-3">
           <div class="card shadow">
-            <img src="/assets/img/news/default.jpg" class="card-img-top" alt="...">
+            <img src="/assets/img/news/news-2.jpg" class="card-img-top news-image" alt="...">
             <div class="card-body">
-              <h5 class="card-title">Judul Berita</h5>
-              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit....</p>
+              <h5 class="card-title">Tim Divisi K3L melakukan penelusuran ke titik kebakaran di UB Forest</h5>
+              <p class="card-text">Tim Divisi Keselamatan dan Kesehatan Kerja Lingkungan (K3L) terlibat secara aktif dalam upaya penelusuran ke lokasi kebakaran hutan di UB Forest. ....</p>
               <a href="#" class="btn btn-success">Baca selengkapnya</a>
             </div>
           </div>
         </div>
-        <div class="col-12 col-md-4 mb-3">
-          <div class="card shadow">
-            <img src="/assets/img/news/default.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Judul Berita</h5>
-              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit....</p>
-              <a href="#" class="btn btn-success">Baca selengkapnya</a>
-            </div>
-          </div>
-        </div>
+        
       </div>
     </div>
   </div>

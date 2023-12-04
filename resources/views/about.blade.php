@@ -21,10 +21,23 @@
     <p class="mb-4 text-justify">
       Kesehatan, Keselamatan Kerja, dan Lingkungan adalah (K3L) adalah upaya untuk menciptakan keadaan aman, kondisi yang terlindungi secara fisik dan spiritual, keadaan terbebas atau terhindar dari berbagai keadaan yang tidak diinginkan, keadaan sehat, baik secara fisik, mental, spiritual maupun sosial yang memungkinkan setiap orang untuk hidup produktif secara sosial dan ekonomi di dalam kesatuan ruang dengan semua makhluk hidup untuk keberlanjutan dan kesejahteraan manusia dan makhluk hidup lainnya.</p>
     <br>
-      <h2 class="display-5 my-4">Tujuan Keselamatan Kerja</h2>
+    <h2 class="display-5 my-4">Tujuan Keselamatan Kerja</h2>
     <p class="mb-4 text-justify">
       Berdasarkan <b class="text-dark">UU No. 1 Tahun 1970</b> tentang keselamatan kerja , bahwa tujuan Kesehatan dan Keselamatan Kerja yang berkaitan dengan mesin, peralatan, landasan tempat kerja dan lingkungan tempat kerja adalah mencegah terjadinya kecelakaan dan sakit akibat kerja, memberikan perlindungan pada sumber-sumber produksi sehingga dapat meningkatkan efiensi dan produktivitas. Hal ini tentu sangat penting mengingat apabila Kesehatan pegawai buruk mengakibatkan turunnya capaian/output serta demotivasi kerja.
     </p>
+    <br>
+    <h2 class="display-5 my-4">Buku Saku K3L</h2>
+    <a href="/files/Buku Panduan V3.pdf" class="text-dark">
+      <div class="rounded-1 border p-2 shadow" download="vhjbk" style="width: fit-content; cursor: pointer">
+        <div class="d-flex">
+          <i class="mdi mdi-pdf-box text-danger" style="font-size: 36px"></i>
+          <div class="ms-2 me-2">
+            <p class="fw-bold m-0">Buku Panduan V3.pdf</p>
+            <span style="font-size: 14px">61.24 MB</span>
+          </div>
+        </div>
+      </div>
+    </a>
 
   </div>
 </div>
