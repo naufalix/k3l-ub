@@ -54,7 +54,7 @@
       <a href="/standar-operasional-prosedur" class="nav-item nav-link {{ Request::is('standar*') ? 'active' : '' }}">SOP</a>
       <a href="/infografis" class="nav-item nav-link {{ Request::is('infografis') ? 'active' : '' }}">Infografis</a>
       <a href="/kontak" class="nav-item nav-link {{ Request::is('kontak') ? 'active' : '' }}">Kontak</a>
-      <a href="/files/Simk3ub.apk" class="nav-item nav-link">Aplikasi</a>
+      <a href="/files/Simk3ub.apk" class="nav-item nav-link">Aplikasi K3</a>
     </div>
   </div>
 </nav>
