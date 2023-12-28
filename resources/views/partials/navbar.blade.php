@@ -29,12 +29,12 @@
     .navbar-brand img {max-width: 230px;}
   }
   @media (min-width: 600px) {
-    .navbar-brand img {max-width: 350px;}
+    .navbar-brand img {max-width: 400px;}
   }
 </style>
 
 <!-- Navbar Start -->
-<nav class="navbar navbar-expand-lg bg-dark navbar-dark sticky-top py-2 px-md-5">
+<nav class="navbar navbar-expand-lg bg-dark navbar-dark sticky-top py-1 px-md-4">
   <a href="../" class="navbar-brand bg-none">
     <img src="/assets/img/logo-k3lub.png" class="fa-1x ms-3">
   </a>
