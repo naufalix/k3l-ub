@@ -3,7 +3,9 @@
 namespace Database\Seeders;
 
 // use Illuminate\Database\Console\Seeds\WithoutModelEvents;
+use App\Models\News;
 use App\Models\User;
+use File;
 use Illuminate\Database\Seeder;
 
 class DatabaseSeeder extends Seeder
@@ -20,5 +22,15 @@ class DatabaseSeeder extends Seeder
             "username" => "naufal",  
             "password" => bcrypt('admin')
         ]);
+
+        $news = json_decode(File::get("database/data/news.json"));
+        foreach ($news as $key => $value) {
+            News::create([
+                "title" => $value->title,
+                "slug" => $value->slug,
+                "body" => $value->body,
+                "image" => $value->image,
+            ]);
+        }
     }
 }
