@@ -29,6 +29,7 @@
 
 
 <!-- vendor css -->
+<link rel="stylesheet" href="/assets/lib/datatables.net-bs4/dataTables.bootstrap4.css">
 <link rel="stylesheet" href="/assets/lib/font-awesome/css/font-awesome.css">
 <link rel="stylesheet" href="/assets/lib/Ionicons/css/ionicons.css">
 <link rel="stylesheet" href="/assets/lib/perfect-scrollbar/css/perfect-scrollbar.css">
@@ -38,6 +39,19 @@
 
 <!-- Amanda CSS -->
 <link rel="stylesheet" href="/assets/css/amanda.css">
+<style>
+  .paginate_button, .paginate_button.disabled {
+    background-color: transparent !important;
+    border-color: transparent;
+    border-radius: 0;
+  }
+  .btn {cursor: pointer;}
+  .bb{border-bottom: 1px solid #ccc;}
+  .bt{border-top: 1px solid #ccc;}
+  /* th, td {
+    border-color: #DEE2E6
+  } */
+</style>
 
 <!-- JS -->
 <script src="/assets/lib/sweetalert2/sweetalert2.all.min.js"></script>
