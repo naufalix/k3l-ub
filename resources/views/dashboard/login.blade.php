@@ -3,8 +3,8 @@
 @section('content')
 <div class="am-signin-wrapper">
   <div class="am-signin-box">
-    <div class="row no-gutters">
-      <div class="col-lg-5">
+    <div class="row no-gutters justify-content-center">
+      <div class="col-lg-5 d-none">
         <div>
           <h2>amanda</h2>
           <p>The Responsive Bootstrap 4 Admin Template</p>
@@ -21,22 +21,22 @@
           @csrf
           <div class="form-group">
             <label class="form-control-label">Username:</label>
-            <input type="text" name="username" class="form-control" placeholder="Enter your username">
+            <input type="text" name="username" class="form-control" placeholder="Enter your username" required>
           </div><!-- form-group -->
   
           <div class="form-group">
             <label class="form-control-label">Password:</label>
-            <input type="password" name="password" class="form-control" placeholder="Enter your password">
+            <input type="password" name="password" class="form-control" placeholder="Enter your password" required>
           </div><!-- form-group -->
   
-          <div class="form-group mg-b-20"><a href="#">Reset password</a></div>
+          <div class="form-group mg-b-20 d-none"><a href="#">Reset password</a></div>
   
           <button type="submit" class="btn btn-block">Sign In</button>
         </form>
 
       </div><!-- col-7 -->
     </div><!-- row -->
-    <p class="tx-center tx-white-5 tx-12 mg-t-15">Copyright &copy; 2017. All Rights Reserved. Amanda by ThemePixels</p>
+    <p class="tx-center tx-white-5 tx-12 mg-t-15">Copyright &copy; 2023. Divisi K3L Universitas Brawijaya</p>
   </div><!-- signin-box -->
 </div><!-- am-signin-wrapper -->
 @endsection

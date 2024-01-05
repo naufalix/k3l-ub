@@ -7,12 +7,27 @@
 
   <body>
 
+    <script>
+      @if(session()->has('success'))
+        Swal.fire({title:'Berhasil', text:'{{session('success')}}', icon:'success'})
+      @endif
+      @if(session()->has('error'))
+        Swal.fire({title:'Error!', text:'{{session('error')}}', icon:'error'})
+      @endif
+      @if(session()->has('info'))
+        Swal.fire({title:'Info', text:'{{session('info')}}', icon:'info'})
+      @endif
+      @if($errors->any())
+        Swal.fire({title:'Error!', html:'{!! implode('', $errors->all(':message<br>')) !!}', icon:'error'})
+      @endif
+    </script>
+
     @include('partials.dashboard-header')
     @include('partials.dashboard-sidebar')
 
     <div class="am-mainpanel">
       <div class="am-pagetitle">
-        <h5 class="am-title">Dashboard</h5>
+        <h5 class="am-title">{{$title}}</h5>
         <form id="searchBar" class="search-bar" action="http://www.themepixels.me/demo/amanda/app/index.html">
           <div class="form-control-wrapper">
             <input type="search" class="form-control bd-0" placeholder="Search...">
@@ -31,6 +46,7 @@
     </div><!-- am-mainpanel -->
 
     @include('partials.dashboard-script')
+    @yield('script')
 
   </body>
 
