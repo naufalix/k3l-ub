@@ -3,6 +3,7 @@
 use App\Http\Controllers\APIController;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\Dashboard\DashHome;
+use App\Http\Controllers\Dashboard\DashNews;
 use App\Http\Controllers\Auth\AuthController;
 use Illuminate\Support\Facades\Route;
 
@@ -18,6 +19,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', [HomeController::class, 'index']);
+Route::get('/berita/{news:slug}', [HomeController::class, 'news']);
 Route::get('/infografis', [HomeController::class, 'infographic']);
 Route::get('/kontak', [HomeController::class, 'contact']);
 Route::get('/peraturan', [HomeController::class, 'regulation']);

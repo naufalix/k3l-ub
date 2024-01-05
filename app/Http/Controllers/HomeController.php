@@ -2,12 +2,7 @@
 
 namespace App\Http\Controllers;
 use App\Http\Controllers\Controller;
-// use App\Models\Agenda;
-// use App\Models\Announcement;
-// use App\Models\Gallery;
-// use App\Models\News;
-// use App\Models\Staff;
-// use App\Models\User;
+use App\Models\News;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Hash;
 
@@ -19,7 +14,7 @@ class HomeController extends Controller
             // "agendas" => Agenda::orderBy('execute_date', 'desc')->get(),
             // "announcements" => Announcement::orderBy('created_at', 'desc')->get(),
             // "galleries" => Gallery::all(),
-            // "news" => News::orderBy('created_at', 'desc')->get(),
+            "news" => News::orderBy('created_at', 'desc')->limit(6)->get(),
             // "staffs" => Staff::all(),
             "title" => "Divisi K3L Universitas Brawijaya",
         ]);
@@ -57,22 +52,19 @@ class HomeController extends Controller
         ]);
     }
     
-    public function news(){
-        return view('news',[
-            "agendas" => Agenda::orderBy('execute_date', 'desc')->get(),
-            "announcements" => Announcement::orderBy('created_at', 'desc')->get(),
-            "news" => News::orderBy('created_at', 'desc')->get(),
-            "staffs" => Staff::all(),
-            "title" => "Desa Curahmalang | Berita",
-        ]);
-    }
+    // public function news(){
+    //     return view('news',[
+    //         "agendas" => Agenda::orderBy('execute_date', 'desc')->get(),
+    //         "announcements" => Announcement::orderBy('created_at', 'desc')->get(),
+    //         "news" => News::orderBy('created_at', 'desc')->get(),
+    //         "staffs" => Staff::all(),
+    //         "title" => "Desa Curahmalang | Berita",
+    //     ]);
+    // }
 
-    public function new(News $news){
-        return view('new',[
-            "agendas" => Agenda::orderBy('execute_date', 'desc')->get(),
-            "announcements" => Announcement::orderBy('created_at', 'desc')->get(),
-            "new" => $news,
-            "staffs" => Staff::all(),
+    public function news(News $news){
+        return view('news',[
+            "news" => $news,
             "title" => $news->title,
         ]);
     }

@@ -35,27 +35,20 @@
         <h1 class="display-5 mb-4">Berita Terkini</h1>
       </div>
       <div class="row justify-content-center">
+
+        @foreach ($news as $n)
         <div class="col-12 col-md-4 mb-3">
           <div class="card shadow">
-            <img src="/assets/img/news/news-1.jpg" class="card-img-top news-image" alt="...">
+            <img src="/assets/img/news/{{$n->image}}" class="card-img-top news-image" alt="...">
             <div class="card-body">
-              <h5 class="card-title">Tim Divisi K3L melakukan tinjauan lapang</h5>
-              <p class="card-text">Kawasan Hutan dengan Tujuan Khusus (KHDTK) yang menjadi Hutan Pendidikan dan Penelitian Universitas Brawijaya (UB) mengalami bencana kebakaran yang melibatkan wilayah....</p>
-              <a href="#" class="btn btn-success">Baca selengkapnya</a>
+              <h5 class="card-title">{{$n->titlr}}</h5>
+              <p class="card-text">{{substr($n->body,0,170)}}...</p>
+              <a href="/berita/{{$n->slug}}" class="btn btn-success">Baca selengkapnya</a>
             </div>
           </div>
         </div>
-        <div class="col-12 col-md-4 mb-3">
-          <div class="card shadow">
-            <img src="/assets/img/news/news-2.jpg" class="card-img-top news-image" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Tim Divisi K3L melakukan penelusuran ke titik kebakaran di UB Forest</h5>
-              <p class="card-text">Tim Divisi Keselamatan dan Kesehatan Kerja Lingkungan (K3L) terlibat secara aktif dalam upaya penelusuran ke lokasi kebakaran hutan di UB Forest. ....</p>
-              <a href="#" class="btn btn-success">Baca selengkapnya</a>
-            </div>
-          </div>
-        </div>
-        
+        @endforeach
+
       </div>
     </div>
   </div>
