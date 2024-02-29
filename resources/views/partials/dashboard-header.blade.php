@@ -6,7 +6,7 @@
   </div><!-- am-header-left -->
 
   <div class="am-header-right">
-    <div class="dropdown dropdown-notification">
+    <div class="dropdown dropdown-notification d-none">
       <a href="#" class="nav-link pd-x-7 pos-relative" data-toggle="dropdown">
         <i class="icon ion-ios-bell-outline tx-24"></i>
         <!-- start: if statement -->
@@ -67,15 +67,15 @@
     <div class="dropdown dropdown-profile">
       <a href="#" class="nav-link nav-link-profile" data-toggle="dropdown">
         <img src="../img/img3.jpg" class="wd-32 rounded-circle" alt="">
-        <span class="logged-name"><span class="hidden-xs-down">Jane Doe</span> <i class="fa fa-angle-down mg-l-3"></i></span>
+        <span class="logged-name"><span class="hidden-xs-down">{{auth()->user()->name}}</span> <i class="fa fa-angle-down mg-l-3"></i></span>
       </a>
       <div class="dropdown-menu wd-200">
         <ul class="list-unstyled user-profile-nav">
-          <li><a href="#"><i class="icon ion-ios-person-outline"></i> Edit Profile</a></li>
+          {{-- <li><a href="#"><i class="icon ion-ios-person-outline"></i> Edit Profile</a></li>
           <li><a href="#"><i class="icon ion-ios-gear-outline"></i> Settings</a></li>
           <li><a href="#"><i class="icon ion-ios-download-outline"></i> Downloads</a></li>
           <li><a href="#"><i class="icon ion-ios-star-outline"></i> Favorites</a></li>
-          <li><a href="#"><i class="icon ion-ios-folder-outline"></i> Collections</a></li>
+          <li><a href="#"><i class="icon ion-ios-folder-outline"></i> Collections</a></li> --}}
           <li><a href="/logout"><i class="icon ion-power"></i> Sign Out</a></li>
         </ul>
       </div><!-- dropdown-menu -->

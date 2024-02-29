@@ -18,7 +18,7 @@
     <div id="mainMenu" class="tab-pane active">
       <ul class="nav am-sideleft-menu">
         <li class="nav-item">
-          <a href="index-2.html" class="nav-link active">
+          <a href="/dashboard" class="nav-link active">
             <i class="icon ion-ios-home-outline"></i>
             <span>Dashboard</span>
           </a>
@@ -35,8 +35,8 @@
             <span>Dropdown</span>
           </a>
           <ul class="nav-sub">
-            <li class="nav-item"><a href="blank.html" class="nav-link">Blank Page</a></li>
-            <li class="nav-item"><a href="page-signin.html" class="nav-link">Signin Page</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Blank Page</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Signin Page</a></li>
           </ul>
         </li><!-- nav-item -->
         
